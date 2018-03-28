@@ -1,0 +1,44 @@
+{
+  "name": "pickle-mod",
+  "version": "3.0.0",
+  "description": "Discord bot for server moderation purposes",
+  "main": "bin/bot.js",
+  "scripts": {
+    "lint": "tslint './src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zajrik/pickle-mod.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "yamdbf",
+    "node",
+    "modbot",
+    "pickle"
+  ],
+  "author": "Zackary Campbell <zajrik@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zajrik/pickle-mod/issues"
+  },
+  "homepage": "https://github.com/zajrik/pickle-mod#readme",
+  "dependencies": {
+    "sequelize": "^4.7.5",
+    "sqlite3": "^3.1.9",
+    "yamdbf": "zajrik/yamdbf#indev",
+    "yamdbf-command-usage": "^1.0.0",
+    "yamdbf-dm-manager": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.88",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.2",
+    "tslint": "^5.6.0",
+    "typescript": "^2.7.2"
+  }
+}
